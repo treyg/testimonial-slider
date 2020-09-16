@@ -1,0 +1,68 @@
+main {
+  min-height: 99vh;
+  background: url(../assets/pattern-curve.svg), url(../assets/pattern-bg.svg);
+  background-repeat: no-repeat;
+  background-position: bottom left, center right 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: "Inter", sans-serif;
+  color: #202046;
+}
+
+.transition {
+  transition: opacity 500ms ease;
+}
+
+#right-section img {
+  box-shadow: -33px 40px 30px -40px #202046;
+}
+
+button {
+  position: relative;
+  right: 500px;
+  z-index: 10;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 0;
+  width: 100px;
+  height: 50px;
+  border: none;
+  box-shadow: -33px 40px 30px -40px #202046;
+}
+button #left-button {
+  margin-right: 50px;
+}
+
+#left-section {
+  background: url(../assets/pattern-quotes.svg);
+  background-repeat: no-repeat;
+  background-position: top left 120px;
+  max-width: 45%;
+}
+#left-section blockquote {
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+}
+#left-section #quote {
+  margin-bottom: 10px;
+}
+#left-section .author-block {
+  margin-top: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#left-section .author-block #author {
+  font-size: 19px;
+  font-weight: 700;
+}
+#left-section .author-block #role {
+  color: #babacf;
+  font-size: 20px;
+  margin-left: 8px;
+  font-weight: 500;
+}
+
+/*# sourceMappingURL=style.css.map */
